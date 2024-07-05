@@ -1,0 +1,147 @@
+/*
+
+// Mode Light & Dark 
+
+.change-mode{
+    font-size: 30px !important;
+    font-weight: bold;
+
+    border-radius: 40px;
+   
+
+}
+.content{
+    object-fit: contain;
+}
+#flexSwitchCheckChecked{
+    cursor: pointer;
+ 
+
+} */
+
+
+:root {
+    --main-color: #E68285;
+    --second-color: rgb(143, 62, 62)
+}
+
+
+.background-img {
+    background-image: url(../img/events-heavenly-header.jpg);
+    background-size: cover;
+    height: 750px;
+
+
+}
+
+.content h1 {
+    font-size: 60px !important;
+}
+
+.background-color {
+    background-color: rgba(248, 95, 95, 0.486);
+}
+
+.sliderbar-menu {
+    width: 0;
+    top: 0px;
+    left: 0;
+    background-color: black;
+    font-size: 30px;
+    display: none;
+
+
+}
+
+.sliderbar-menu a {
+    text-decoration: none;
+    color: white;
+    transition: .7s;
+
+}
+
+.sliderbar-menu a:hover {
+    color: var(--second-color);
+
+}
+
+.open {
+    top: 45%;
+    left: 0px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    transition: .6s;
+    z-index: 2;
+
+}
+
+.close-icon {
+    cursor: pointer;
+}
+.singer1-header ,.singer2-header ,.singer3-header ,.singer4-header{
+    background-color: var(--main-color);
+    cursor: pointer !important;
+}
+.singer1-content ,.singer2-content ,.singer3-content ,.singer4-content{
+    background-color: rgb(201, 201, 201);
+    height: auto;   
+}
+
+.time{
+
+    background-image: url(../img/time-img.jpg);
+    background-size: cover;
+    height: 350px;
+
+}
+.sm-card{
+    border: 2px solid white;
+    font-size: 30px;
+    height: 150px;
+    color: white;
+}
+.contact-content{
+    height: auto;
+    
+}
+
+.btn-form{
+    background-color: #D62E33;
+    padding: 15px;
+    color: white;
+    border: none;
+}
+.social-list li{
+    padding: 10px;
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    border: 1px solid gray;
+    color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+
+    
+}
+
+.social-list li:hover{
+    background-color: #D62E33;
+    border: none;
+    
+}
+.social-list li:hover a{
+   color: white;
+    
+    
+}
+.social-list a{
+    
+    color:gray;
+   
+}
+
